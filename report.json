@@ -1,0 +1,946 @@
+[
+  {
+    "description": "    Feature Description Test advanced search features",
+    "keyword": "Feature",
+    "name": "Advanced Search",
+    "line": 1,
+    "id": "advanced-search",
+    "tags": [],
+    "uri": "features\\advancedSearch.feature",
+    "elements": [
+      {
+        "id": "advanced-search;i-click-this-weekend-button-will-show-this-weekend-start-and-end-dates",
+        "keyword": "Scenario",
+        "line": 5,
+        "name": "I click This Weekend button will show this weekend start and end dates",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4007000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I click This Weekend button",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:25"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7290000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I can see this weekend start and end dates",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 79000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 8,
+            "name": "I click Next Week button",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:38"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 50000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 9,
+            "name": "I can see next week start and end dates",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:39"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 64000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "I click Next Weekend button",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 44000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "I can see next weekend start and end dates",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:46"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 61000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "advanced-search;i-select-'central'-and-it-is-selected",
+        "keyword": "Scenario",
+        "line": 19,
+        "name": "I select 'Central' and it is selected",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1860000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I select 'Central' from Locations combo box",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7619000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I can see 'Central' is selected from Locations combo box",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1020000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "advanced-search;i-select-'north'-and-it-is-selected",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "I select 'North' and it is selected",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1741000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 14,
+            "name": "I select 'North' from Locations combo box",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:52"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8167000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 15,
+            "name": "I can see 'North' is selected from Locations combo box",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:58"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1020000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "advanced-search;i-select-'5-years-old'-and-'10-years-old'-and-they-are-selected",
+        "keyword": "Scenario",
+        "line": 30,
+        "name": "I select '5 years old' and '10 years old' and they are selected",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1484000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I select '5 years old' from min age combo box",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7670000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I can see '5 years old' is selected from min age combo box",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 81000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I select '10 years old' from max age combo box",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 251000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I can see '10 years old' is selected from max age combo box",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 59000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "advanced-search;i-select-'10-years-old'-and-'20-years-old'-and-they-are-selected",
+        "keyword": "Scenario",
+        "line": 31,
+        "name": "I select '10 years old' and '20 years old' and they are selected",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1726000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 23,
+            "name": "I select '10 years old' from min age combo box",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:63"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7777000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 24,
+            "name": "I can see '10 years old' is selected from min age combo box",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:69"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 95000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "I select '20 years old' from max age combo box",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:73"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 502000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I can see '20 years old' is selected from max age combo box",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:77"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 80000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "advanced-search;i-enter-'1-july-2019'-and-'31-august-2019'-and-they-are-entered",
+        "keyword": "Scenario",
+        "line": 40,
+        "name": "I enter '1 July 2019' and '31 August 2019' and they are entered",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2269000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "I validate '1 July 2019' is not after '31 August 2019'",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:81"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I enter '1 July 2019' and '31 August 2019'",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 8409000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I can see '1 July 2019' and '31 August 2019' are entered",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 71000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "advanced-search;i-enter-'2-july-2019'-and-'5-july-2019'-and-they-are-entered",
+        "keyword": "Scenario",
+        "line": 41,
+        "name": "I enter '2 July 2019' and '5 July 2019' and they are entered",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1447000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 34,
+            "name": "I validate '2 July 2019' is not after '5 July 2019'",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:81"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 35,
+            "name": "I enter '2 July 2019' and '5 July 2019'",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:82"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7310000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 36,
+            "name": "I can see '2 July 2019' and '5 July 2019' are entered",
+            "match": {
+              "location": "js_files\\test_suites\\advancedSearch.js:88"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 48000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  },
+  {
+    "description": "    Feature Description Test main search features",
+    "keyword": "Feature",
+    "name": "Main Seaarch",
+    "line": 1,
+    "id": "main-seaarch",
+    "tags": [],
+    "uri": "features\\mainSearch.feature",
+    "elements": [
+      {
+        "id": "main-seaarch;enter-and-validate-'term-classes'-search-text",
+        "keyword": "Scenario",
+        "line": 11,
+        "name": "Enter and validate 'Term Classes' search text",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1135000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I click Term Classes tab",
+            "match": {
+              "location": "js_files\\test_suites\\mainSearch.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 6911000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter 'English, Maths' for term classes field",
+            "match": {
+              "location": "js_files\\test_suites\\mainSearch.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1426000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I can see 'English, Maths' is entered in term classes field",
+            "match": {
+              "location": "js_files\\test_suites\\mainSearch.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 766000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "main-seaarch;enter-and-validate-'term-classes'-search-text",
+        "keyword": "Scenario",
+        "line": 12,
+        "name": "Enter and validate 'Term Classes' search text",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1306000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 5,
+            "name": "I click Term Classes tab",
+            "match": {
+              "location": "js_files\\test_suites\\mainSearch.js:19"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7730000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 6,
+            "name": "I enter 'Sports, Music' for term classes field",
+            "match": {
+              "location": "js_files\\test_suites\\mainSearch.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1365000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 7,
+            "name": "I can see 'Sports, Music' is entered in term classes field",
+            "match": {
+              "location": "js_files\\test_suites\\mainSearch.js:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 617000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          }
+        ]
+      },
+      {
+        "id": "main-seaarch;enter-and-validate-'all-you-can-learn-classes'-search-text",
+        "keyword": "Scenario",
+        "line": 21,
+        "name": "Enter and validate 'All-You-Can Learn Classes' search text",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1320000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I click All-You-Can Learn Classes tab",
+            "match": {
+              "location": "js_files\\test_suites\\mainSearch.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 7920000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I enter 'Football, Badminton, Abacus' for all classes field",
+            "match": {
+              "location": "js_files\\test_suites\\mainSearch.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2142000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I can see 'Football, Badminton, Abacus' is entered in all classes field",
+            "match": {
+              "location": "js_files\\test_suites\\mainSearch.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 710000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      },
+      {
+        "id": "main-seaarch;enter-and-validate-'all-you-can-learn-classes'-search-text",
+        "keyword": "Scenario",
+        "line": 22,
+        "name": "Enter and validate 'All-You-Can Learn Classes' search text",
+        "tags": [],
+        "type": "scenario",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:15"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1451000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I click All-You-Can Learn Classes tab",
+            "match": {
+              "location": "js_files\\test_suites\\mainSearch.js:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 5738000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I enter 'Dance, Chess, Piano' for all classes field",
+            "match": {
+              "location": "js_files\\test_suites\\mainSearch.js:23"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2127000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I can see 'Dance, Chess, Piano' is entered in all classes field",
+            "match": {
+              "location": "js_files\\test_suites\\mainSearch.js:24"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 726000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "js_files\\setups\\hooks.js:20"
+            },
+            "result": {
+              "status": "passed"
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "node_modules\\protractor-cucumber-framework\\lib\\resultsCapturer.js:26"
+            },
+            "result": {
+              "status": "passed"
+            }
+          }
+        ]
+      }
+    ]
+  }
+]
